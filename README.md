@@ -9,6 +9,7 @@ Test => Updated from other branch
 
 ## Before You Begin
 We make a few assumptions in this README. Continue only if you have completed these critical configuration prerequisites.
+Hola Juana
 
 - You know how to set up your GitHub repository with CircleCI. (Need help? See the CircleCI [Getting Started guide](https://circleci.com/docs/2.0/).)
 - You have properly set up the JWT-Based authorization flow (headless). We recommend using [these steps for generating your Self-Signed SSL Certificate](https://devcenter.heroku.com/articles/ssl-certificate-self). 
