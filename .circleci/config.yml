@@ -8,7 +8,7 @@ jobs:
       - run:
           name: "Verify _ Apex Naming"
           command : |
-            find src/classes -name 'My*.*' | wc -l
+            find src/classes -name '*_*.*' | wc -l
   build: 
     docker:
       - image: circleci/node:8.9.4
