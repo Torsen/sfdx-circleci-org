@@ -1,6 +1,8 @@
 version: 2
 jobs:
   verify-best-practices:
+    docker: 
+      - image: buildpack-deps:trust
     steps:
       - checkout
       - run:
