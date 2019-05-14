@@ -3,7 +3,7 @@ jobs:
   verify-best-practices:
     steps:
       - checkout
-      -run:
+      - run:
         name: "Verify _ Apex Naming"
         command : |
           src/classes -name 'My*.*' | wc -l
