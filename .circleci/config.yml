@@ -6,9 +6,9 @@ jobs:
     steps:
       - checkout
       - run:
-        name: "Verify _ Apex Naming"
-        command : |
-          src/classes -name 'My*.*' | wc -l
+          name: "Verify _ Apex Naming"
+          command : |
+            src/classes -name 'My*.*' | wc -l
   build: 
     docker:
       - image: circleci/node:8.9.4
