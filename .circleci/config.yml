@@ -2,7 +2,7 @@ version: 2
 jobs:
   verify-best-practices:
     docker: 
-      - image: buildpack-deps:trust
+      - image: circleci/node:8.9.4
     steps:
       - checkout
       - run:
